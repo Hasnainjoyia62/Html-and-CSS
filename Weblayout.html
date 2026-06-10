@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* Layout ko break hone se bachanay k liye */
+        }
+
+        .divs {
+            height: 100px;
+            width: 100px;
+            border: 2px solid brown;
+            display:inline-block;
+            margin: 15px;
+        }
+
+        .navbar {
+            background-color: #0f1111;
+            height: 60px;
+            border: 5px solid white;
+        }
+
+        .logo {
+            color: orange;
+            font-weight: bold;
+             display: inline-block;
+             margin-left: 0;
+        }
+
+        a {
+            margin-left: 200px;
+            color: white;
+            text-decoration: none;
+           
+        }
+
+        button {
+            background-color: #f08804;
+            color: white;
+            padding-top: 3px;
+        }
+
+        .search {
+            margin-left: 195px;
+        }
+
+        .content {
+            width: 100%;
+        }
+
+        footer {
+            margin-top: 433px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#" class="logo">amazon.in</a>
+            <a href="#">Account</a>
+            <a href="#">My Cart</a>
+            <a href="#">Contact Us</a>
+            <input type="text" placeholder="Search.." class="search">
+            <button>Search</button>
+        </div>
+    </header>
+    
+    <div class="content">
+        <div class="divs" style="background-color: green;">div1</div>
+        <div class="divs" style="background-color: yellow;">div2</div>
+        <div class="divs" style="background-color: red;">div3</div>
+    </div>
+    
+    <footer>footer</footer>
+</body>
+
+</html>
