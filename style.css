@@ -1,0 +1,43 @@
+/* #box1 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    font-size: 20px;
+}
+
+#box2 {
+    height: 50px;
+    width: 30%;
+    background-color: yellow; 
+    font-size: 1em;
+    width:5rem
+} */
+ div{
+    height:100px;
+    width: 100px;
+    background-color: aqua;
+    border:2px solid black;
+    display: inline-block;
+ }
+ /* #box1{
+   position: static;
+ }
+ #box2{
+     position: relative;
+    top:-20px;
+    left:30px;
+ }
+ #box3{
+    position:absolute;
+    top:10; 
+    z-index: 1;
+ }
+ #box4{
+    position:sticky;
+  top:0;
+  width:100%;
+ } */
+  #box1 {
+    background-image: url("flower_image.jpg");
+    background-size: auto;
+  }
